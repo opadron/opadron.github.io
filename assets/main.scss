@@ -10,14 +10,33 @@ $main-color: #7d2000;
 $main-color-light: #b88574;
 $main-color-white: #c1a0a0;
 $main-color-light: #cfa090;
-$background-color: $grey-color-light !default;
+// $background-color: $grey-color-light !default;
+// $background-color: #3d3d3d !default;
+// $background-color: #707070 !default;
+$background-color: #1e1e2e !default;
 $content-width: 100vh;
 
+$fade-delay-0:   0ms !default;
+$fade-delay-1: 200ms !default;
+$fade-delay-2: 400ms !default;
+
 @import "minima";
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    padding-left: 25px;
+  }
+  100% {
+    opacity: 100%;
+    padding-left: 0px;
+  }
+}
 
 .site-header {
   border: 5px solid $background-color;
   border: 0px;
+  border: 3px solid darken($main-color-light, 25%);
 
   background: $main-color-light;
   border-radius: 25px;
@@ -27,11 +46,17 @@ $content-width: 100vh;
   margin-bottom: 0px;
 
   width: $content-width;
+
+  opacity: 0;
+  animation: fadeIn ease 1s $fade-delay-0;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 .site-footer {
   background: #d0d0e0;
   border: 0px;
+  border: 3px solid darken(#d0d0e0, 25%);
   border-radius: 25px;
   margin: 20px;
   margin-top: 0px;
@@ -39,16 +64,27 @@ $content-width: 100vh;
   margin-right: auto;
 
   width: $content-width;
+
+  opacity: 0;
+  animation: fadeIn ease 1s $fade-delay-2;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 .page-content {
   border-radius: 25px;
+  border: 3px solid #cfcf8f;
   background: lighten(#cfcf8f, 25%);
   margin: 20px;
   margin-left: auto;
   margin-right: auto;
 
   width: $content-width;
+
+  opacity: 0;
+  animation: fadeIn ease 1s $fade-delay-1;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 /**
