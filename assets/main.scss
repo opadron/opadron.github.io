@@ -13,7 +13,8 @@ $main-color-light: #cfa090;
 // $background-color: $grey-color-light !default;
 // $background-color: #3d3d3d !default;
 // $background-color: #707070 !default;
-$background-color: #1e1e2e !default;
+// $background-color: #1e1e2e !default;
+$background-color: #272b36 !default;
 $content-width: 100vh;
 
 $fade-delay-0:   0ms !default;
@@ -74,7 +75,7 @@ $fade-delay-2: 400ms !default;
 .page-content {
   border-radius: 25px;
   border: 3px solid #cfcf8f;
-  background: lighten(#cfcf8f, 25%);
+  background: lighten(#cfcf8f, 30%);
   margin: 20px;
   margin-left: auto;
   margin-right: auto;
