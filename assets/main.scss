@@ -28,6 +28,15 @@ $base-font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans
 @keyframes fadeIn {
   0% {
     opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes warpIn {
+  0% {
+    opacity: 0;
     padding-left: 25px;
   }
   100% {
@@ -49,11 +58,42 @@ $base-font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans
   margin-bottom: 0px;
 
   width: $content-width;
+  max-width: 85%;
 
   opacity: 0;
-  animation: fadeIn ease 1s $fade-delay-0;
+  animation: warpIn ease 1s $fade-delay-0;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+
+  .site-nav {
+    border: none;
+    background :none;
+
+    .menu-icon {
+      background: $main-color-light;
+      // border: 1px solid darken($main-color-light, 25%);
+      // border-radius: 10px;
+      animation: fadeIn ease 1s $fade-delay-0;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+    }
+
+    .nav-trigger ~ .trigger {
+      background: $main-color-light;
+      animation: fadeIn ease 1s $fade-delay-0;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+    }
+
+    .nav-trigger:checked ~ .trigger {
+      background: $main-color-light;
+      border: 1px solid darken($main-color-light, 25%);
+      border-radius: 5px;
+      animation: fadeIn ease 300ms $fade-delay-0;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+    }
+  }
 }
 
 .site-footer {
@@ -67,9 +107,10 @@ $base-font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans
   margin-right: auto;
 
   width: $content-width;
+  max-width: 85%;
 
   opacity: 0;
-  animation: fadeIn ease 1s $fade-delay-2;
+  animation: warpIn ease 1s $fade-delay-2;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
@@ -87,9 +128,10 @@ $base-font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans
   margin-right: auto;
 
   width: $content-width;
+  max-width: 85%;
 
   opacity: 0;
-  animation: fadeIn ease 1s $fade-delay-1;
+  animation: warpIn ease 1s $fade-delay-1;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
