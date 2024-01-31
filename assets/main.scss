@@ -15,7 +15,7 @@ $main-color-light: #cfa090;
 // $background-color: #707070 !default;
 // $background-color: #1e1e2e !default;
 $background-color: #272b36 !default;
-$content-width: 100vh;
+$content-width: 85%;
 
 $fade-delay-0:   0ms !default;
 $fade-delay-1: 200ms !default;
@@ -58,7 +58,6 @@ $base-font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans
   margin-bottom: 0px;
 
   width: $content-width;
-  max-width: 85%;
 
   opacity: 0;
   animation: warpIn ease 1s $fade-delay-0;
@@ -107,7 +106,6 @@ $base-font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans
   margin-right: auto;
 
   width: $content-width;
-  max-width: 85%;
 
   opacity: 0;
   animation: warpIn ease 1s $fade-delay-2;
@@ -128,7 +126,6 @@ $base-font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans
   margin-right: auto;
 
   width: $content-width;
-  max-width: 85%;
 
   opacity: 0;
   animation: warpIn ease 1s $fade-delay-1;
