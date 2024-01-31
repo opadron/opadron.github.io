@@ -21,6 +21,8 @@ $fade-delay-0:   0ms !default;
 $fade-delay-1: 200ms !default;
 $fade-delay-2: 400ms !default;
 
+$base-font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+
 @import "minima";
 
 @keyframes fadeIn {
@@ -73,6 +75,10 @@ $fade-delay-2: 400ms !default;
 }
 
 .page-content {
+  .post a {
+    background: #0000ff11;
+  }
+
   border-radius: 25px;
   border: 3px solid #cfcf8f;
   background: lighten(#cfcf8f, 30%);
