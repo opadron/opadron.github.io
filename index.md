@@ -4,3 +4,6 @@
 
 layout: home
 ---
+
+Hey, I'm Omar!  I'm a software engineer with a passion for bridging the gaps between
+high-end computing and the sciences! [more about me](about)
