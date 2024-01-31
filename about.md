@@ -4,7 +4,7 @@ title: about
 permalink: /about/
 ---
 
-I am a software and systems engineer with over 10 years of experience applying my
+I am a software and systems engineer with over ten years of experience applying my
 expertise in computational science and applied mathematics to a variety of engineering
 application domains.  My specialties include large-scale workflows for cloud, on-premises,
 and hybrid infrastructure; and advanced package-management for modern scientific software
@@ -15,7 +15,9 @@ markets.
 In my most recent role, I was part of the Foundational Software group at
 [Citadel](https://www.citadel.com/), where I worked to advance the state-of-the-art in
 scalable software management.  The group's efforts enabled key capabilities within the
-firm's core engineering function and helped lay the groundwork culminating in the recent
+firm's core engineering function, forming the backbone of the trading systems relied on by
+thousands of traders across hundreds of trading desks firm wide.  Our contributions helped
+lay the groundwork culminating in the recent
 [record-breaking performance](https://www.forbes.com/sites/hanktucker/2023/01/22/citadels-16-billion-gain-in-2022-makes-ken-griffins-firm-the-top-earning-hedge-fund-ever/?sh=44f32b103105)
 of the firm's funds.
 
@@ -28,8 +30,8 @@ products. These products would later go on to form the core of
 [Resonant](https://resonant.kitware.com/), a suite of tools enabling the rapid development
 of web-based data and analytics applications.  During my seven-year tenure at Kitware, I
 worked on a variety of projects, including a web application for multi-modal analysis of
-cancer data, cloud workflows for AI training and inference on satellite images, as well as
-better tooling for scientific software builds.
+cancer data, cloud workflows for AI training and inference on satellite images, and better
+tooling for scientific software builds.
 
 Prior to Kitware, I was part of the Science and Engineering Application Support team at
 the [University of Illinois](https://illinois.edu/)
