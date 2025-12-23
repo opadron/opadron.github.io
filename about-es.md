@@ -73,13 +73,6 @@ y el programa
 [NCSA SPIN](https://blogs.illinois.edu/view/6204/1349706967).
 
 
-I earned my M.S. and B.S. degrees in Computational Mathematics from
-[Kean University](https://www.kean.edu/), where I studied in the
-[School of Integrative Science and Technology](https://www.kean.edu/academics/dorothy-and-george-hennings-college-science-mathematics-and-technology/school-integrative).
-My research focused on parallel numerical algorithms for the simulation of continuous,
-dynamic multi-physics systems characterized by partial differential equations.
-
-
 Obtuve mis títulos de maestría y licenciatura en Matemáticas Computacionales en la
 [Universidad de Kean](https://www.kean.edu/), donde estudié en la
 [Facultad de Ciencia y Tecnología Integrada](https://www.kean.edu/academics/dorothy-and-george-hennings-college-science-mathematics-and-technology/school-integrative).
