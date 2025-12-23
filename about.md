@@ -1,8 +1,10 @@
 ---
 layout: page
-title: about
+title: About
 permalink: /about/
 ---
+
+[Traducción al español](/about-es)
 
 I am a software and systems engineer with over ten years of experience applying my
 expertise in computational science and applied mathematics to a variety of engineering
@@ -12,7 +14,7 @@ stacks.  I have lead the design and development of many novel solutions to compu
 challenges in the life sciences, defense applications, and most recently, our capital
 markets.
 
-In my most recent role, I was part of the Foundational Software group at
+Among my more recent roles, I was part of the Foundational Software group at
 [Citadel](https://www.citadel.com/), where I worked to advance the state-of-the-art in
 scalable software management.  The group's efforts enabled key capabilities within the
 firm's core engineering function, forming the backbone of the trading systems relied on by
@@ -60,3 +62,5 @@ I earned my M.S. and B.S. degrees in Computational Mathematics from
 [School of Integrative Science and Technology](https://www.kean.edu/academics/dorothy-and-george-hennings-college-science-mathematics-and-technology/school-integrative).
 My research focused on parallel numerical algorithms for the simulation of continuous,
 dynamic multi-physics systems characterized by partial differential equations.
+
+[Resume](/opadron.pdf)
